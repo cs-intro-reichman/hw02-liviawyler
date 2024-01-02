@@ -7,5 +7,9 @@
 public class OneOfEachStats1 {
 	public static void main (String[] args) {
 		//// Put your code here
+		int T = Integer.parseInt (args[0]);
+		int TotalChildren = 0;
+		int twoChildrenCount = 0;
+)
 	}
 }

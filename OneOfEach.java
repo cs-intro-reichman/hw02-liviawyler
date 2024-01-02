@@ -10,10 +10,10 @@ public class OneOfEach {
 		boolean boyBorn = false;
 		boolean girlBorn = false; 
 		while (!(boyBorn && girlBorn)) {
-		} if (Math.random() < 0.5) {
+		if (Math.random() < 0.5) {
 			System.out.print("b "); // Print 'b' for boy
 			boyBorn = true;
-		} else {
+		else {
 			System.out.print("g "); // Print 'g' for girl
 			girlBorn == true;
 			}

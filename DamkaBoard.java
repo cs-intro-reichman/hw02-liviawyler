@@ -6,17 +6,16 @@ public class DamkaBoard {
 		//// Put your code here
 		int num = Integer.parseInt(args[0]);
 		for (int row = 0; row < num; row ++) {
-			if (row % 2 == 0) {
-				for (int col = 0; col < num; col ++) {
-					System.out.print(" *");
-				}
+			String space = "";
+			if (row % 2 == 1) {
+				space = " *";
 			}	
 			else {
-				for (int col = 0; col < num; col ++) {
-					System.out.print("* ");
-				}
+				space = "* ";
 			}
-			
+			for (int l = 0; l < num; l++) {
+				System.out.println(space);
+			}
 			System.out.println("");
 		}
 	}
